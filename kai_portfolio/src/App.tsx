@@ -8,23 +8,29 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <>
-    <nav>
-      <ul>
-        <li>
-          <Link to = "/"> Home </Link>
-        </li>
-        <li>
-          <Link to = "/profile"> Profile </Link>
-        </li>
-        <li>
-          <Link to = "/contact"> Contact Me </Link>
-        </li>
-      </ul>
-    </nav>
+      <nav className="bg-blue-500 p-4">
+        <ul className="flex space-x-10">
+          <li>
+            <Link to="/" className="text-white hover:text-gray-300">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/profile" className="text-white hover:text-gray-300">
+              Profile
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="text-white hover:text-gray-300">
+              Contact Me
+            </Link>
+          </li>
+        </ul>
+      </nav>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/profile" element={<Profile/>}/>
-        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );
