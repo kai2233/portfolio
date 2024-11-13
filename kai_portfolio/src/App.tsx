@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <>
-      <nav className="bg-blue-500 p-4">
+      {/* <nav className="bg-blue-500 p-4">
         <ul className="flex space-x-10">
           <li>
             <Link to="/" className="text-white hover:text-gray-300">
@@ -26,7 +26,7 @@ function App() {
             </Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
