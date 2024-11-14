@@ -5,14 +5,14 @@ import { SiExpress, SiRedux, SiTailwindcss } from "react-icons/si";
 
 
 export const skillSet: Record<string, IconType> = {
-    'javascript': BiLogoJavascript,
-    'typescript': BiLogoTypescript,
-    'python': IoLogoPython,
-    'react': IoLogoReact,
-    'redux': SiRedux,
-    'tailwindcss': SiTailwindcss,
-    'node.js': IoLogoNodejs,
-    'express.js': SiExpress,
-    'postgresql': BiLogoPostgresql,
+    'JavaScript': BiLogoJavascript,
+    'TypeScript': BiLogoTypescript,
+    'Python': IoLogoPython,
+    'React': IoLogoReact,
+    'Redux': SiRedux,
+    'TailwindCSS': SiTailwindcss,
+    'Node.js': IoLogoNodejs,
+    'Express.js': SiExpress,
+    'PostgreSQL': BiLogoPostgresql,
 
 }
