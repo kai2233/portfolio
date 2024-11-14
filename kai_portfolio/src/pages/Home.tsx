@@ -5,6 +5,7 @@ const Home = () => {
     return (
         <div className='flex justify-center'>
             <div className='relative w-2/5 h-full bg-slate-50 p-2 opacity-80'>
+                <div className='flex justify-center'>
                 <nav className="fixed">
                     <ul className="relative grid grid-cols-3 items-center justify-center py-2 border border-white/10 backdrop-blur-md rounded-full shadow-2xl">
                     <li className='relative z-10 px-2 text-center py-2 rounded-full cursor-pointer text-neutral-300'>
@@ -24,6 +25,7 @@ const Home = () => {
                     </li>
                     </ul>
                 </nav>
+                </div>
                 <section className='flex gap-3 mt-16'>
                     <img src='DSC02062.jpg' alt='Kai' className='w-auto h-44 mx-6 rounded-lg'/>
                     <div>
