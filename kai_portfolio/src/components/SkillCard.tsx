@@ -15,7 +15,7 @@ const SkillCard: React.FC<Props> = ({ name,Icon }) => {
         //         {name}
         //     </div>
         // </div>
-        <div className='flex justify-center items-center w-24 h-24 rounded-lg border-0 shadow-xl gap-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:cursor-pointer hover:bg-neutral-300'>
+        <div className='flex justify-center items-center w-24 h-12 rounded-lg border-0 shadow-xl gap-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:cursor-pointer hover:bg-neutral-300'>
             <Icon className=''/>
             <p className='text-sm'>{name}</p>
         </div>
