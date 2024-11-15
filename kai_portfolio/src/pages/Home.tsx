@@ -13,7 +13,8 @@ const Home = () => {
                 <section>
                     <Skills/>
                 </section>
-                <div className='h-96 '></div>
+                <section>
+                </section>
             </div>
         </div>
     );
