@@ -9,6 +9,7 @@ module.exports = {
         'space': ['Space Grotesk', 'sans-serif'],
       },
       colors: {
+        customWhite: '#F8FBFD',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

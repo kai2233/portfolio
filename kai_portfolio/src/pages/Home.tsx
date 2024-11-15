@@ -2,10 +2,12 @@ import React from 'react';
 import Skills from './Skills'
 import NavBar from '../components/NavBar';
 import Profile from './Profile';
+import Experience from './Experience';
+
 const Home = () => {
     return (
         <div className='flex justify-center'>
-            <div className='relative w-2/5 h-full bg-slate-50 p-2 opacity-80'>
+            <div className='absolute w-2/5 h-full bg-customWhite p-2'>
                 <NavBar/>
                 <section>
                     <Profile/>
@@ -14,6 +16,7 @@ const Home = () => {
                     <Skills/>
                 </section>
                 <section>
+                    <Experience/>
                 </section>
             </div>
         </div>
