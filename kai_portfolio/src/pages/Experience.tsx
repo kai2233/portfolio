@@ -14,7 +14,7 @@ const Experience = () => {
 
     const [display, setDisplay] = useState<displayType>('work');
     return (
-        <div className='my-10 mx-8'>
+        <div className='my-16 mx-8'>
             <div className='flex justify-evenly border-2 border-stone-300 rounded-full'>
                 <button className={`font-semibold text-xl w-full rounded-l-full ${display === 'work' ? 'bg-slate-700 text-white' : 'hover:bg-gray-200'}`} onClick={()=>setDisplay('work')}>Work Experience</button>
                 <button className={`font-semibold text-xl w-full rounded-r-full ${display === 'education' ? 'bg-slate-700 text-white' : 'hover:bg-gray-200'}`} onClick={()=>setDisplay('education')}>Education</button>
