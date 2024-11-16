@@ -14,8 +14,8 @@ const Experience = () => {
     return (
         <div className='my-16 mx-8'>
             <div className='flex justify-evenly border-2 border-stone-300 rounded-full'>
-                <button className={`font-semibold text-xl w-full rounded-l-full ${display === 'work' ? 'bg-slate-700 text-white' : 'hover:bg-gray-200'}`} onClick={()=>setDisplay('work')}>Work Experience</button>
-                <button className={`font-semibold text-xl w-full rounded-r-full ${display === 'education' ? 'bg-slate-700 text-white' : 'hover:bg-gray-200'}`} onClick={()=>setDisplay('education')}>Education</button>
+                <button className={`font-semibold text-xl w-full rounded-l-full ${display === 'work' ? 'bg-slate-700 text-white dark:bg-white dark:text-slate-700' : 'hover:bg-gray-200'} dark:bg-gray-800 dark:text-gray-100`} onClick={()=>setDisplay('work')}>Work Experience</button>
+                <button className={`font-semibold text-xl w-full rounded-r-full ${display === 'education' ? 'bg-slate-700 text-white dark:bg-white dark:text-slate-700' : 'hover:bg-gray-200'} dark:bg-gray-800 dark:text-gray-100`} onClick={()=>setDisplay('education')}>Education</button>
             </div>
             {display === 'work' &&
                 <div className="mt-5">
