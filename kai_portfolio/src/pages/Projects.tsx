@@ -12,7 +12,7 @@ const Projects = () => {
 
     return (
         <div className='my-16 mx-8'>
-            <h1 className='font-semibold text-2xl text-center'>Projects:</h1>
+            <h1 className='font-semibold text-2xl text-center dark:text-slate-100'>Projects:</h1>
             <div className='grid grid-cols-2 gap-4 mt-7'>
                 <div className='bg-customWhite p-2 border-2 shadow-lg'>
                     <h1 className='text-2xl font-bold'>Project 1</h1>
