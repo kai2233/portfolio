@@ -2,9 +2,7 @@ import React from 'react';
 import {useState} from 'react';
 import {
     Card,
-    CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from '../components/card';
@@ -28,7 +26,7 @@ const Experience = () => {
                             <CardHeader className='ml-9'>
                                 <CardTitle className='text-lg'>Backend Developer</CardTitle>
                                 <CardDescription className='text-sm'>10Clear · Internship </CardDescription>
-                                <CardDescription className='text-sm'>Jun 2024 - Aug 2024 3mos</CardDescription>
+                                <CardDescription className='text-sm'>Jun 2024 - Aug 2024 · 3 mos</CardDescription>
                             </CardHeader>
                         </div>
                     </Card>

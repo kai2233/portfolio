@@ -1,7 +1,7 @@
 import { IconType } from "react-icons";
 import { IoLogoPython, IoLogoReact, IoLogoNodejs } from "react-icons/io5";
 import { BiLogoJavascript, BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
-import { SiExpress, SiRedux, SiTailwindcss, SiGit, SiPostman } from "react-icons/si";
+import { SiExpress, SiRedux, SiTailwindcss, SiGit, SiPostman, SiSwift,  } from "react-icons/si";
 
 
 export const skillSet: Record<string, IconType> = {
@@ -13,6 +13,7 @@ export const skillSet: Record<string, IconType> = {
     'TailwindCSS': SiTailwindcss,
     'Node.js': IoLogoNodejs,
     'Express.js': SiExpress,
+    'Swift': SiSwift,
     'PostgreSQL': BiLogoPostgresql,
     'Git': SiGit,
     'Postman': SiPostman

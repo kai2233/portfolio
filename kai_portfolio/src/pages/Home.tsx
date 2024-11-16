@@ -7,8 +7,8 @@ import Projects from './Projects';
 
 const Home = () => {
     return (
-        <div className='flex justify-center'>
-            <div className='absolute w-2/5 h-auto bg-customWhite p-2'>
+        <div className='flex justify-center dark'>
+            <div className='absolute w-2/5 h-auto font-space bg-customWhite p-2 drak:'>
                 <NavBar/>
                 <section>
                     <Profile/>
