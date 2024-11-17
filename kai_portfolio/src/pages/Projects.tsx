@@ -13,7 +13,7 @@ const Projects = () => {
     return (
         <div className='my-16 mx-8'>
             <h1 className='font-semibold text-2xl text-center dark:text-slate-100'>Projects:</h1>
-            <div className='columns-2 gap-1'>
+            <div className='columns-2 gap-1 max-lg:columns-1'>
                 {projects.map((project) => {
                     return (
                         <Card className='break-inside-avoid dark:border-slate-100 mt-1'>

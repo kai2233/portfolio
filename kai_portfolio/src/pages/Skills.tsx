@@ -6,9 +6,9 @@ const Skills = () => {
 
     return (
         <div className='my-16 mx-8'>
-            <h1 className='font-semibold text-xl dark:text-slate-100'>Tech Stack:</h1>
+            <h1 className='font-semibold text-xl dark:text-slate-100 text-center'>Tech Stack:</h1>
             {/* <div className='grid grid-cols-5 gap-6 mt-4'> */}
-            <div className='flex flex-wrap gap-4 mt-1'>
+            <div className='flex flex-wrap gap-4 mt-1 justify-center'>
                 {
                     Object.keys(skillSet).map((skill) => {
                         return <SkillCard name={skill} Icon={skillSet[skill]}/>

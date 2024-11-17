@@ -28,7 +28,7 @@ const Home = () => {
                     <Projects/>
                 </section>
                 <section>
-                    <div className='w-full border-2'/>
+                    <div className='w-full border-2 dark:border-slate-100'/>
                     <div className='mx-8 my-3'>
                         <h1 className='font-semibold text-xl dark:text-slate-100'>Contact:</h1>
                         <div className='flex flex-col gap-2 mt-1 dark:text-slate-100'>
