@@ -13,7 +13,7 @@ const Home = () => {
 
     return (
         <div className={`flex justify-center dark:bg-gray-900 ${isDarkMode && 'dark'}`}>
-            <div className='w-2/5 h-auto font-space bg-customWhite p-2 dark:bg-gray-800'>
+            <div className='w-2/5 h-auto font-space bg-customWhite p-2 dark:bg-gray-800 max-lg:w-4/6'>
                     <NavBar isDarkMode ={isDarkMode} handleDarkMode = {handleDarkMode}/>
                 <section>
                     <Profile/>
