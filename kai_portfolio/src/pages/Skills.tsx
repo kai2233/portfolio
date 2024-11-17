@@ -1,4 +1,3 @@
-import React from 'react';
 import { skillSet } from '../constants';
 import SkillCard from '../components/SkillCard';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { IoLocation } from "react-icons/io5";
 import { MdLanguage } from "react-icons/md";
 
