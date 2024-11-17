@@ -45,7 +45,7 @@ export const projects: Project[] = [
         github: {
             frontend: 'https://github.com/kai2233/portfolio',
         },
-        deployment: 'https://kai-portfolio.vercel.app/'
+        deployment: 'https://kaifeng02-portfolio.netlify.app/'
     },
     {
         title: 'FocusEureka',
