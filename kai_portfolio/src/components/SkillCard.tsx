@@ -1,5 +1,4 @@
 import React from 'react';
-import { skillSet } from '../constants';
 import { IconType } from 'react-icons';
 
 type Props = {
