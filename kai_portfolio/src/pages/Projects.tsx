@@ -37,7 +37,7 @@ const Projects = () => {
                                         <img
                                             src={project.image}
                                             alt={project.title}
-                                            className='w-full aspect-square object-cover transition-transform duration-300 ease-in-out hover:scale-105'
+                                            className='w-full aspect-square object-cover transition-transform duration-300 ease-in-out'
                                         />
                                     )}
                                 </CardDescription>
